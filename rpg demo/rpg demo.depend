@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1621281212 source:c:\users\5353i\documents\coding\ics4u\rpg demo\src\character.cpp
+	"character.h"
+
+1621281226 c:\users\5353i\documents\coding\ics4u\rpg demo\include\character.h
+	"header.h"
+
+1621280100 c:\users\5353i\documents\coding\ics4u\rpg demo\include\header.h
+	<iostream>
+	<time.h>
+
+1621281792 source:c:\users\5353i\documents\coding\ics4u\rpg demo\main.cpp
+	"header.h"
+	"character.h"
+	"hunter.h"
+	"warrior.h"
+
+1621280100 c:\users\5353i\documents\coding\ics4u\rpg demo\include\hunter.h
+	<character.h>
+	"header.h"
+
+1621280100 c:\users\5353i\documents\coding\ics4u\rpg demo\include\warrior.h
+	<character.h>
+	"header.h"
+
+1621281792 source:c:\users\5353i\documents\coding\ics4u\rpg demo\src\hunter.cpp
+	"hunter.h"
+
+1621281615 source:c:\users\5353i\documents\coding\ics4u\rpg demo\src\warrior.cpp
+	"warrior.h"
+
