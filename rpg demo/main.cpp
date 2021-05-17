@@ -26,9 +26,7 @@ bool runGame(void *c, int days)
         cout << "Unfortunately your money has reached zero and you have gone broke. You survived " << days << " days." << endl;
         return false;
     }
-    int choice = p->menu();
-    p->dailyDecrement();
-    switch(choice)
+    switch(p->menu())
     {
     case 1:
         {
@@ -56,8 +54,6 @@ bool runGame(void *c, int days)
 
 int main()
 {
-    hunter h;
-    warrior w;
     void *c;
     int characterType = 0;
     cout << "Welcome to the Fantasy Character Game! You can play as one of two characters. You will need to manage your health, fame, and money in order to survive!" << endl;
@@ -71,21 +67,20 @@ int main()
         {
             cout << "please enter a valid input: ";
         }
+        else if(characterType == 1)
+        {
+            cout << "You have selected Warrior!" << endl;
+            c = (void*)(new warrior);
+            break;
+        }
         else
         {
+            cout << "You have selected Hunter!" << endl;
+            c = (void*)(new hunter);
             break;
         }
     }
-    if(characterType == 1)
-    {
-        cout << "You have selected Warrior!" << endl;
-        c = (void*)(new warrior);
-    }
-    else
-    {
-        cout << "You have selected Hunter!" << endl;
-        c = (void*)(new hunter);
-    }
+
     int days = 1;
     while(true)
     {

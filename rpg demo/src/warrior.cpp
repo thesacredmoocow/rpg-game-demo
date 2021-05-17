@@ -38,6 +38,7 @@ int warrior::menu()
             break;
         }
     }
+    dailyDecrement();
     return response;
 }
 

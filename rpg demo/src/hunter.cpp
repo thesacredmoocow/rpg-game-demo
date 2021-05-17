@@ -37,6 +37,7 @@ int hunter::menu()
             break;
         }
     }
+    dailyDecrement();
     return response;
 }
 void hunter::toString()

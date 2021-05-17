@@ -29,3 +29,13 @@
 1621281615 source:c:\users\5353i\documents\coding\ics4u\rpg demo\src\warrior.cpp
 	"warrior.h"
 
+1621281212 source:c:\users\5353i\documents\coding\rpg-game-demo\rpg demo\src\character.cpp
+	"character.h"
+
+1621281226 c:\users\5353i\documents\coding\rpg-game-demo\rpg demo\include\character.h
+	"header.h"
+
+1621280100 c:\users\5353i\documents\coding\rpg-game-demo\rpg demo\include\header.h
+	<iostream>
+	<time.h>
+
